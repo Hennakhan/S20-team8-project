@@ -8,7 +8,7 @@ This is also giving me error. Choose elephant from image folder to test
 - Install requirements
 - Run the script
 - Go to http://localhost:5000
-- Done! :tada:
+- Done
 
 
 install and run it on your computer.
@@ -16,7 +16,8 @@ install and run it on your computer.
 ```shell
 # 1. First, clone the repo
 $ git clone https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
-$ cd keras-flask-deploy-webapp
+$ cd S20-team8-project
+$ cd webapp
 
 # 2. Install Python packages
 $ pip install -r requirements.txt
