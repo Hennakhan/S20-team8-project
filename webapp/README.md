@@ -1,3 +1,5 @@
+This code is taken from a blog keras-flask-deploy-webapp
+
 Currently I have set the model to mobilnet pretrained model. Since I am not able to upload my model on git. 
 This is also giving me error. Choose elephant from image folder to test
 
