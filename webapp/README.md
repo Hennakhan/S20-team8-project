@@ -15,7 +15,7 @@ install and run it on your computer.
 
 ```shell
 # 1. First, clone the repo
-$ git clone https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+$ git clone 
 $ cd S20-team8-project
 $ cd webapp
 
