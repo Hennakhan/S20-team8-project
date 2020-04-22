@@ -1,3 +1,5 @@
+Our Food Recognition model for Food - 101 categories is in folder models. You can replace the model by your model and update categories list in app.py file to your classes.
+
 1. Clone this repo
 
   --> $ git clone 'Repository name'
@@ -12,5 +14,5 @@
 
 4. Go to http://127.0.0.1:5000
 
-Done
+  --> Done
 
