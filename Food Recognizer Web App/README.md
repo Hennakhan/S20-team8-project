@@ -4,7 +4,9 @@ categories list in 'app.py' file to your classes/labels.
 1. Clone this repo
 
   --> $ git clone 'Repository name'
+  
   --> cd 'Repository name'
+  
   --> cd 'Food Recognizer Web App'
 
 2. Install requirements
