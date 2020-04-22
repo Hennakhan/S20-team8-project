@@ -1,0 +1,87 @@
+{% extends "base.html" %} {% block content %}
+
+<style>
+    .alnright { text-align: left; }
+</style>
+
+<script>
+       function myFunc(a) 
+	   {
+         var food = document.getElementById(a).innerHTML;
+		 food = food.split('. ');
+		 food = food[1];
+		 item = 'You are serving ' + food;
+         alert(item);
+      }
+</script>
+
+<table class='alnright' style="width:75%">
+  <tr>
+    <td>
+        <div class= "leftbox"><b>
+            <div>
+                <label id="Top5"><h3>Top 5 predictions:</h3></label>   
+                <div><a id="Top5_1" name="Top5" href = "javascript:myFunc('Top5_1')"><br></a></div>
+                <div><a id="Top5_2" name="Top5" href = "javascript:myFunc('Top5_2')"><br></a></div>
+                <div><a id="Top5_3" name="Top5" href = "javascript:myFunc('Top5_3')"><br></a></div>
+                <div><a id="Top5_4" name="Top5" href = "javascript:myFunc('Top5_4')"><br></a></div>
+                <div><a id="Top5_5" name="Top5" href = "javascript:myFunc('Top5_5')"><br></a></div>
+                <div><label id="Top5_6" name="Top5" >&nbsp;<br></label></div>
+                <div><label id="Top5_7" name="Top5" >&nbsp;<br></label></div>
+                <div><label id="Top5_8" name="Top5" >&nbsp;<br></label></div>
+            </div>
+			 <div>
+                <label id="Top10"><h3><b>Top 10 predictions:</b></h3></label>
+                <div><a id="Top10_1" name="Top10" href = "javascript:myFunc('Top10_1')"><br></a></div>
+                <div><a id="Top10_2" name="Top10" href = "javascript:myFunc('Top10_2')"><br></a></div>
+                <div><a id="Top10_3" name="Top10" href = "javascript:myFunc('Top10_3')"><br></a></div>
+                <div><a id="Top10_4" name="Top10" href = "javascript:myFunc('Top10_4')"><br></a></div>
+                <div><a id="Top10_5" name="Top10" href = "javascript:myFunc('Top10_5')"><br></a></div>
+                <div><a id="Top10_6" name="Top10" href = "javascript:myFunc('Top10_6')"><br></a></div>
+                <div><a id="Top10_7" name="Top10" href = "javascript:myFunc('Top10_7')"><br></a></div>
+                <div><a id="Top10_8" name="Top10" href = "javascript:myFunc('Top10_8')"><br></a></div>
+                <div><a id="Top10_9" name="Top10" href = "javascript:myFunc('Top10_9')"><br></a></div>
+                <div><a id="Top10_10"name="Top10" href = "javascript:myFunc('Top10_10')"><br></a></div>
+            </div>
+			</b>
+        </div>
+    </td>
+    <td>
+        <div class="main">
+          <div class="title">
+            <h2><b>Food Recognizer</b></h2>
+            <!-- <p>
+              <small>A web app demo</small>
+            </p> -->
+        </div>
+
+         <div class="panel">
+            <input id="file-upload" class="hidden" type="file" accept="image/x-png,image/gif,image/jpeg" />
+            <label for="file-upload" id="file-drag" class="upload-box">
+              <div id="upload-caption">Drop image here or click to select</div>
+              <img id="image-preview" class="hidden" />
+            </label>
+          </div>
+          <div style="margin-bottom: 2rem;">
+            <input type="button" value="Submit" class="button" onclick="submitImage();" />
+            <input type="button" value="Clear" class="button" onclick="clearImage();" />
+          </div>
+
+          <div id="image-box">
+            <img id="image-display" />
+            <div id="pred-result" class="hidden"></div>
+            <svg id="loader" class="hidden" viewBox="0 0 32 32" width="32" height="32">
+              <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+            </svg>
+          </div>
+		  
+        </div>
+    </td>
+     <td> 
+        
+    </td>
+  </tr>
+</table>
+
+
+{% endblock %}
