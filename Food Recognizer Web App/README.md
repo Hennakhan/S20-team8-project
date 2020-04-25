@@ -25,3 +25,6 @@ categories list in 'app.py' file to your classes/labels.
 4. Go to http://127.0.0.1:5000
 
   --> Done
+
+Reference:
+1. https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
