@@ -27,4 +27,6 @@ categories list in 'app.py' file to your classes/labels.
   --> Done
 
 Reference:
-1. https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+
+1. Building a simple Keras + deep learning REST API
+2. keras-flask-deploy-webapp on git
