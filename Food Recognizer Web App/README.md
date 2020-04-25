@@ -1,3 +1,4 @@
+
 ### Food Recognizer Web App
 
 ![](ezgif.com-resize.gif)
@@ -24,5 +25,3 @@ categories list in 'app.py' file to your classes/labels.
 4. Go to http://127.0.0.1:5000
 
   --> Done
-
-
