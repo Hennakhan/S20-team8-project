@@ -16,30 +16,62 @@ Abstract - Image classification is the task of classifying an image into a class
 
 [Neural Network Code for Model 3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Different%20Neural%20Network%20Architecture/Model3%20-%20Kfold_25_Top5-10.ipynb)
 
+[Download Datset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
+
 Web app
 
 ![](https://github.com/CSCI4850/S20-team8-project/blob/master/Food%20Recognizer%20Web%20App/ezgif.com-resize.gif)
 
+## Run our code to obtain the neural network model
+1. Clone this repo
 
+  --> $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
+  
+  --> cd S20-team8-project
 
+2. Install requirements
 
+  --> $ pip install -r requirements.txt
 
+3. Download and unzip the dataset in the same folder
 
+  --> [Download Datset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
+4. Run ipynb 
 
+  --> Model1 - Kfold_101_Top5-10.ipynb
+  --> Model2 - Kfold_50_Top5-10.ipynb
+  --> Model3 - Kfold_25_Top5-10.ipynb
+--->
 
+5. Done
 
+## Run our web app using the model created
+Our Food Recognition model for Food - 101 categories is in folder named 'models'. You can replace the model by your model and update 
+categories list in 'app.py' file to your classes/labels.
 
+1. Clone this repo
 
+  --> $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
+  
+  --> cd S20-team8-project
+  
+  --> cd 'Food Recognizer Web App'
+
+2. Install requirements
+
+  --> $ pip install -r requirements.txt
+
+3. Run the script
+
+  --> $ python app.py
+
+4. Go to http://127.0.0.1:5000
+
+  --> Done
 
 
 ### Members
-1. Barbour, Elijah 
-2. Khan, Heena
-3. Phillips, James
-4. Chunga, Luis
-5. Thieman, Mason
-6. Radice, Matthew
-7. Sheffey, Steven
+Elijah Barbour, Heena Khan, James Phillips, Luis Chunga, Mason Thieman, Matthew Radice, Steven Sheffey.
 
 The code being developed within this repository is for an image recognition algorithm which will be incorporated into a web app. This group project fulfills the requirements for completing CSCI 4850/5850 Spring 2020 Neural Networks class at Middle Tennessee State University.
