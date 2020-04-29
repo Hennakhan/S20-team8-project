@@ -2,9 +2,10 @@
 ## Team 8 - ALCOVE - Attention to the right details with detailed attention.
 ### Food Recognition Software for a Web App
 
-Abstract - Image classification is the task of classifying an image into a class category. In this paper, we developed three food classifier models, namely Model-1, Model-2, and Model-3, that can classify the image into 101, 50, and 25 food categories, respectively. We have used a Convolutional neural network for this purpose. Since CNN's are efficient in correlating and understanding a large amount of data in high-resolution images, they are best known for their ability to recognize patterns present in images. Our Model-1 is deployed to a Food recognizer web app.
+Image classification is the task of classifying an image into a class category. In this paper, we developed three food classifier models, namely Model-1, Model-2, and Model-3, that can classify the image into 101, 50, and 25 food categories, respectively. We have used a Convolutional neural network for this purpose. Since CNN's are efficient in correlating and understanding a large amount of data in high-resolution images, they are best known for their ability to recognize patterns present in images. Our Model-1 is deployed to a Food recognizer web app.
 
-[Project_Proposal] (https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Paper.pdf)
+
+[Project Paper](https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Paper.pdf)
 
 [Project Proposal](https://github.com/CSCI4850/S20-team8-project/blob/master/ProjectProposal.ipynb)
 
@@ -42,9 +43,11 @@ Web app
 4. Run ipynb 
 
   --> Model1 - Kfold_101_Top5-10.ipynb
+  
   --> Model2 - Kfold_50_Top5-10.ipynb
+  
   --> Model3 - Kfold_25_Top5-10.ipynb
---->
+  
 
 5. Done
 
