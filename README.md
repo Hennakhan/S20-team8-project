@@ -4,6 +4,8 @@
 
 Abstract - Image classification is the task of classifying an image into a class category. In this paper, we developed three food classifier models, namely Model-1, Model-2, and Model-3, that can classify the image into 101, 50, and 25 food categories, respectively. We have used a Convolutional neural network for this purpose. Since CNN's are efficient in correlating and understanding a large amount of data in high-resolution images, they are best known for their ability to recognize patterns present in images. Our Model-1 is deployed to a Food recognizer web app.
 
+[Project_Proposal] (https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Paper.pdf)
+
 [Project Proposal](https://github.com/CSCI4850/S20-team8-project/blob/master/ProjectProposal.ipynb)
 
 [Project Milestone](https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Milestones.ipynb)
@@ -16,7 +18,7 @@ Abstract - Image classification is the task of classifying an image into a class
 
 [Neural Network Code for Model 3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Different%20Neural%20Network%20Architecture/Model3%20-%20Kfold_25_Top5-10.ipynb)
 
-[Download Datset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
+[Download Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
 Web app
 
@@ -35,7 +37,7 @@ Web app
 
 3. Download and unzip the dataset in the same folder
 
-  --> [Download Datset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
+  --> [Download Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
 4. Run ipynb 
 
