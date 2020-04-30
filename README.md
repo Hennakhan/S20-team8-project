@@ -13,15 +13,17 @@ Image classification is the task of classifying an image into a class category. 
 
 [Food Recognizer Web App ](https://github.com/CSCI4850/S20-team8-project/tree/master/Food%20Recognizer%20Web%20App)
 
-[Neural Network Code for Model 1 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
+[Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
 
-[Neural Network Code for Model 2 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+[Model-1 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
 
-[Neural Network Code for Model 3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
+[Model-2 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+
+[Model-3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
 
 [Download Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
-Web app
+#### Web app
 
 ![](https://github.com/CSCI4850/S20-team8-project/blob/master/Food%20Recognizer%20Web%20App/ezgif.com-resize.gif)
 
@@ -42,11 +44,11 @@ Web app
 
 4. Run ipynb 
 
-  --> Model1 - Kfold_101_Top5-10.ipynb
-  
-  --> Model2 - Kfold_50_Top5-10.ipynb
-  
-  --> Model3 - Kfold_25_Top5-10.ipynb
+--> [Model-1 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
+
+--> [Model-2 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+
+--> [Model-3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
   
 
 5. Done
