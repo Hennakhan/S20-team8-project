@@ -55,11 +55,11 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 ```
 2. Run ipynb notebook file
 
-    --> [Model1-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
+    --> [Model1-Demo.ipynb ](./Demo/CNN_Models/Model1-Demo.ipynb)
 
-    --> [Model2-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+    --> [Model2-Demo.ipynb ](./Demo/CNN_Models/Model2-Demo.ipynb)
 
-    --> [Model3-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
+    --> [Model3-Demo.ipynb ](./Demo/CNN_Models/Model3-Demo.ipynb)
   
 3. Your Model will be saved in the same folder with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
 
