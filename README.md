@@ -30,13 +30,13 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 ## Project tree
 * [Demo](./Demo) &nbsp;&nbsp;&nbsp; <sup><sub> (Contain our Demo) </sup></sub>
    * [CNN_Models](./Demo/CNN_Models)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
-      * [Model1_Demo.ipynb](./Demo/CNN_Models/Model1-Kfold_101_Top5-10.ipynb)
-      * [Model2_Demo.ipynb](./Demo/CNN_Models/Model2-Kfold_50_Top5-10.ipynb)
-      * [Model3_Demo.ipynb](./Demo/CNN_Models/Model3-Kfold_25_Top5-10.ipynb)
+      * [Model1-Demo.ipynb](./Demo/CNN_Models/Model1-Demo.ipynb)
+      * [Model2-Demo.ipynb](./Demo/CNN_Models/Model2-Demo.ipynb)
+      * [Model3-Demo.ipynb](./Demo/CNN_Models/Model3-Demo.ipynb)
    *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our webapp) </sup></sub>
 * [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp; <sup><sub> (Contains all the models we tried with code and figures for visualization) </sup></sub>
-   * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data)
-      * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
+   * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/figure_generation_and_data)
+      * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/figure_generation_and_data/graphz.ipynb)
 * [Project_Paper](./Project_Paper)  &nbsp;&nbsp;&nbsp; <sup><sub> (Contains .tex and .bib file for the final paper) </sup></sub>
 * [README.md](./README.md)
 * [Project_Proposal.ipynb](./Project_Proposal.ipynb)   
@@ -81,15 +81,23 @@ categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labe
 
 # 4. Done
 ```
-#### Demo
-This is how your webapp is going to work with your model
-![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
+## Demo
+After creating the model and deploying it to the webapp. This is how your webapp is going to work with your model.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
+
+Detailed discription about each model can be found in the folder CNN_Models inside the Demo Folder in the root directory. There are file in there (Model1-Demo.ipynb, Model2-Demo.ipynb, and Model3-Demo.ipynb) that contains a walkthrough of the project. Going through this demo and running the code will give you a better understanding of the project.
+
 ## References
 <a id="1">[1]</a> 
 Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. Food-101 – mining discrimi-native components with random forests. In European Conference on Computer Vision,2014
 
+<a id="2">[2]</a> 
+https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+
 
 ### Members
-Elijah Barbour, Heena Khan, James Phillips, Luis Chunga, Mason Thieman, Matthew Radice, Steven Sheffey.
+Heena Khan, Luis Chunga, Steven Sheffey, James Phillips, Matthew Radice, Elijah Barbour, Mason Thieman.
 
 The code being developed within this repository is for an image recognition algorithm which will be incorporated into a web app. This group project fulfills the requirements for completing CSCI 4850/5850 Spring 2020 Neural Networks class at Middle Tennessee State University.
