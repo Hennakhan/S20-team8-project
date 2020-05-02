@@ -23,40 +23,40 @@ Before you can run this project, you will need to install some programs and depe
 
 4. After cloning the repository, you may install the necessary dependencies by navigating to the the top directory (that contains the 'requirements.txt' file) and run: pip install -r requirements.txt. This file contains all the libraries required for our neural network as well as our webapp.
 
-# Download Dataset
+## Download Dataset
 
 You can download our dataset from this link [Download Food101 Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
-# Project tree
+## Project tree
 * [Demo](./Demo)
-    * [CNN_Models](./Demo/CNN_Models)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains demo for our neural network
+    * [CNN_Models](./Demo/CNN_Models) &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
       * [Model1_Demo.ipynb](./Demo/CNN_Models/Model1-Kfold_101_Top5-10.ipynb)
       * [Model2_Demo.ipynb](./Demo/CNN_Models/Model2-Kfold_50_Top5-10.ipynb)
       * [Model3_Demo.ipynb](./Demo/CNN_Models/Model3-Kfold_25_Top5-10.ipynb)
      
-   *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains demo for our neural network
-* [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains all the models we tried with code and figures for visualizations.
+   *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
+* [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp; <sup><sub> (Contains all the models we tried with code and figures for visualization) </sup></sub>
    * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data)
       * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
-* [Project_Paper](./Project_Paper)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains .tex and .bib file for the final paper
+* [Project_Paper](./Project_Paper)  &nbsp;&nbsp;&nbsp; <sup><sub> (Contains .tex and .bib file for the final paper) </sup></sub>
 * [README.md](./README.md)
 * [Project_Proposal.ipynb](./Project_Proposal.ipynb)   
 * [Project_Milestone.ipynb](./Project_Milestones.ipynb)
-* [Project_Paper.pdf](./Project_Paper.pdf)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; final paper in pdf format
-* [requirement.txt](./requirements.txt)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; requirements for the project
+* [Project_Paper.pdf](./Project_Paper.pdf)   &nbsp;&nbsp;&nbsp; <sup><sub> (Final paper in pdf format) </sup></sub>
+* [requirement.txt](./requirements.txt)    &nbsp;&nbsp;&nbsp; <sup><sub> (Requirements for the project) </sup></sub>
 
 #### Web app
 
 ![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
 
 ## Step to run our code to obtain the neural network model
+```shell
 1. Clone this repo
-
-  --> $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
-  
-  --> cd S20-team8-project
-
-2. Run ipynb file
+   $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
+   $ cd S20-team8-project
+   $ cd Demo
+```
+2. Run ipynb notebook file
 
 --> [Model1_Demo ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
 
@@ -64,29 +64,28 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 
 --> [Model3_Demo ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
   
-3. Your Model will be saved with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
+3. Your Model will be saved in the same folder with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
 
 4. Done
 
 #### Step to run our web app using the model created
 Our Food Recognition model for Food - 101 categories is in folder named [model](https://github.com/CSCI4850/S20-team8-project/tree/master/Demo/FoodRecognizer-Webapp/models). You can replace the model by your model and update 
-categories list in 'app.py' file to your classes/labels.
+categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labels if needed.
 
-1. Clone this repo
-  
-  --> cd S20-team8-project
-  
-  --> cd 'Demo'
-  
-  --> cd 'FoodRecognizer-Webapp'
+```shell
+# 1. First, clone the repo and go to the folder having app.py
+  $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
+  $ cd S20-team8-project 
+  $ cd 'Demo'
+  $ cd 'FoodRecognizer-Webapp'
 
-2. Run the script
+# 2. Run!the script
+  $ python app.py
 
-  --> $ python app.py
+# 3. Go to http://127.0.0.1:5000
 
-3. Go to http://127.0.0.1:5000
-
-  --> Done
+# 4. Done
+```
 
 ## References
 <a id="1">[1]</a> 
