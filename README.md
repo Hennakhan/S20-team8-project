@@ -23,39 +23,31 @@ Before you can run this project, you will need to install some programs and depe
 
 4. After cloning the repository, you may install the necessary dependencies by navigating to the the top directory (that contains the 'requirements.txt' file) and run: pip install -r requirements.txt. This file contains all the libraries required for our neural network as well as our webapp.
 
-$ ./tree-md .
-# Project tree
+# Download Dataset
 
-.
- * [tree-md](./tree-md)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
+You can download our dataset from this link [Download Food101 Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
+
+# Project tree
+ * [Demo](./Demo)
+   * [CNN_Models](./Demo/CNN_Models)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains demo for our neural network
+      * [Model1_Demo.ext](./Demo/CNN_Models/Model1 - Kfold_101_Top5-10.ipynb)
+      * [Model2_Demo.ext](./Demo/CNN_Models/Model2 - Kfold_50_Top5-10.ipynb)
+      * [Model3_Demo.ext](./Demo/CNN_Models/Model3 - Kfold_25_Top5-10.ipynb)
+   * [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains demo for our neural network
+ * [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains all the models we tried before settling on our current model. It also contains codes and figure for visualization
+ * [Project_Paper](./Project_Paper)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains .tex and .bib file for the final paper
    * [file11.ext](./dir1/file11.ext)
    * [file12.ext](./dir1/file12.ext)
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
- * [Project_Paper](./Project_Paper)    
- * [requirement.txt](./requirements.txt)
- * [Project Milestone](./Project_Milestones.ipynb)
-[Project Paper](./Project_Paper.pdf)
+ * [Project_Proposal.ipynb](./Project_Proposal.ipynb)   
+ * [Project_Milestone.ipynb](./Project_Milestones.ipynb)
+ * [Project_Paper.pdf](./Project_Paper.pdf)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains final paper in pdf format
+ * [requirement.txt](./requirements.txt)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains requirement for the project
 
-[Project Proposal](https://github.com/CSCI4850/S20-team8-project/blob/master/ProjectProposal.ipynb)
-
-[Project Milestone](https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Milestones.ipynb)
-
-[Food Recognizer Web App ](https://github.com/CSCI4850/S20-team8-project/tree/master/Food%20Recognizer%20Web%20App)
 
 [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
 
-[Model-1 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
-
-[Model-2 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
-
-[Model-3 ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
-
-[Download Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
 #### Web app
 
