@@ -35,8 +35,9 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
       * [Model3_Demo.ipynb](./Demo/CNN_Models/Model3-Kfold_25_Top5-10.ipynb)
      
    *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This directory contains demo for our neural network
-  [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains all the models we tried with code and figures for visualizations.
-   * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
+* [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains all the models we tried with code and figures for visualizations.
+   * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data)
+      * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
 * [Project_Paper](./Project_Paper)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contains .tex and .bib file for the final paper
 * [README.md](./README.md)
 * [Project_Proposal.ipynb](./Project_Proposal.ipynb)   
@@ -72,8 +73,6 @@ Our Food Recognition model for Food - 101 categories is in folder named [model](
 categories list in 'app.py' file to your classes/labels.
 
 1. Clone this repo
-
-  --> $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
   
   --> cd S20-team8-project
   
@@ -92,11 +91,6 @@ categories list in 'app.py' file to your classes/labels.
 ## References
 <a id="1">[1]</a> 
 Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. Food-101 – mining discrimi-native components with random forests. In European Conference on Computer Vision,2014
-
-
-
-
-
 
 
 ### Members
