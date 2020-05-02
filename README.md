@@ -9,6 +9,8 @@ Food-101 is a challenging dataset consisting of 101,000 images of 101 different 
 
 <img src="https://github.com/CSCI4850/S20-team8-project/blob/master/Image_for_readme_bread_pudding.png" width="50%">
 
+We process this data using three models called Model 1, Model 2, and Model 3, each taking in 101, 50, and 25 food categories respectively. By applying transfer learning using a pre-trained weights on the NASNet architecture we achieved reasonable accuracy and F1 scores across all of our models.
+
 # Getting Started
 
 Before you can run this project, you will need to install some programs and dependencies.
