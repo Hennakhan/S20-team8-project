@@ -2,8 +2,11 @@
 ## Team 8 - ALCOVE - Attention to the right details with detailed attention.
 ### Food Recognition Software for a Web App
 
-Image classification is the task of classifying an image into a class category. In this paper, we developed three food classifier models, namely Model-1, Model-2, and Model-3, that can classify the image into 101, 50, and 25 food categories, respectively. We have used a Convolutional neural network for this purpose. Since CNN's are efficient in correlating and understanding a large amount of data in high-resolution images, they are best known for their ability to recognize patterns present in images. Our Model-1 is deployed to a Food recognizer web app.
+This project uses convolutional neural network to generate a food recognization model for a free food finder webapp. The model is trained on a very famous and  noisy dataset Food101 provided by Kaggle and originaly from the research paper "Food-101 – Mining Discriminative Components with Random Forests" by Lukas Bossard [1].
 
+Food-101 is a challenging dataset consisting of 101,000 images of 101 different food classes. Taking a look at some of the images, we can see why models may struggle to get good results. For example, all of the images in Figure 1 have been labelled as "bread pudding", yet even as a human, I think I’d struggle to classify them as such.
+
+![](https://github.com/CSCI4850/S20-team8-project/blob/master/Image_for_readme_bread_pudding.png| width=100)
 
 [Project Paper](https://github.com/CSCI4850/S20-team8-project/blob/master/Project_Paper.pdf)
 
@@ -76,6 +79,15 @@ categories list in 'app.py' file to your classes/labels.
 4. Go to http://127.0.0.1:5000
 
   --> Done
+
+## References
+<a id="1">[1]</a> 
+Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. Food-101 – mining discrimi-native components with random forests. In European Conference on Computer Vision,2014
+
+
+
+
+
 
 
 ### Members
