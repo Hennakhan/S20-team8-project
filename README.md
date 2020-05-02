@@ -28,13 +28,12 @@ Before you can run this project, you will need to install some programs and depe
 You can download our dataset from this link [Download Food101 Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
 
 ## Project tree
-* [Demo](./Demo)
-    * [CNN_Models](./Demo/CNN_Models) &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
+* [Demo](./Demo) &nbsp;&nbsp;&nbsp; <sup><sub> (Contain our Demo) </sup></sub>
+   * [CNN_Models](./Demo/CNN_Models)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
       * [Model1_Demo.ipynb](./Demo/CNN_Models/Model1-Kfold_101_Top5-10.ipynb)
       * [Model2_Demo.ipynb](./Demo/CNN_Models/Model2-Kfold_50_Top5-10.ipynb)
       * [Model3_Demo.ipynb](./Demo/CNN_Models/Model3-Kfold_25_Top5-10.ipynb)
-     
-   *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our neural network) </sup></sub>
+   *  [FoodRecognizer-Webapp](./Demo/FoodRecognizer-Webapp)  &nbsp;&nbsp;&nbsp; <sup><sub> (This directory contains demo for our webapp) </sup></sub>
 * [Different Neural Network Architecture](./Different%20Neural%20Network%20Architecture) &nbsp;&nbsp;&nbsp; <sup><sub> (Contains all the models we tried with code and figures for visualization) </sup></sub>
    * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data)
       * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/figure_generation_and_data/graphz.ipynb)
@@ -45,10 +44,6 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 * [Project_Paper.pdf](./Project_Paper.pdf)   &nbsp;&nbsp;&nbsp; <sup><sub> (Final paper in pdf format) </sup></sub>
 * [requirement.txt](./requirements.txt)    &nbsp;&nbsp;&nbsp; <sup><sub> (Requirements for the project) </sup></sub>
 
-#### Web app
-
-![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
-
 ## Step to run our code to obtain the neural network model
 ```shell
 1. Clone this repo
@@ -58,11 +53,11 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 ```
 2. Run ipynb notebook file
 
---> [Model1_Demo ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
+--> [Model1_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
 
---> [Model2_Demo ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+--> [Model2_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
 
---> [Model3_Demo ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
+--> [Model3_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
   
 3. Your Model will be saved in the same folder with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
 
@@ -86,7 +81,9 @@ categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labe
 
 # 4. Done
 ```
-
+#### Demo
+This is how your webapp is going to work with your model
+![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
 ## References
 <a id="1">[1]</a> 
 Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. Food-101 – mining discrimi-native components with random forests. In European Conference on Computer Vision,2014
