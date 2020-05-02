@@ -44,26 +44,28 @@ You can download our dataset from this link [Download Food101 Dataset](https://w
 * [Project_Paper.pdf](./Project_Paper.pdf)   &nbsp;&nbsp;&nbsp; <sup><sub> (Final paper in pdf format) </sup></sub>
 * [requirement.txt](./requirements.txt)    &nbsp;&nbsp;&nbsp; <sup><sub> (Requirements for the project) </sup></sub>
 
-## Step to run our code to obtain the neural network model
+## Running Project
+### Step to run our code to obtain the neural network model
 ```shell
 1. Clone this repo
    $ git clone 'https://github.com/CSCI4850/S20-team8-project.git'
    $ cd S20-team8-project
    $ cd Demo
+   $ cd CNN_Models
 ```
 2. Run ipynb notebook file
 
---> [Model1_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
+    --> [Model1-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model1%20-%20Kfold_101_Top5-10.ipynb)
 
---> [Model2_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
+    --> [Model2-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model2%20-%20Kfold_50_Top5-10.ipynb)
 
---> [Model3_Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
+    --> [Model3-Demo.ipynb ](https://github.com/CSCI4850/S20-team8-project/blob/master/Model3%20-%20Kfold_25_Top5-10.ipynb)
   
 3. Your Model will be saved in the same folder with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
 
 4. Done
 
-#### Step to run our web app using the model created
+### Step to run our web app using the model created
 Our Food Recognition model for Food - 101 categories is in folder named [model](https://github.com/CSCI4850/S20-team8-project/tree/master/Demo/FoodRecognizer-Webapp/models). You can replace the model by your model and update 
 categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labels if needed.
 
