@@ -52,7 +52,7 @@ var top10_7 = document.getElementById("Top10_7");
 var top10_8 = document.getElementById("Top10_8");
 var top10_9 = document.getElementById("Top10_9");
 var top10_10 = document.getElementById("Top10_10");
-
+var serving = document.getElementById("serving");
 //========================================================================
 // Main button events
 //========================================================================
@@ -81,7 +81,8 @@ function clearImage() {
   imagePreview.src = "";
   imageDisplay.src = "";
   predResult.innerHTML = "";
-
+  serving.innerHTML = "";
+  hide(serving);
   hide(imagePreview);
   hide(imageDisplay);
   hide(loader);
@@ -185,6 +186,7 @@ function displayResult(data) {
     top10_8.innerHTML = "8. " + res[7].replace("_", " "); 
     top10_9.innerHTML = "9. " + res[8].replace("_", " "); 
     top10_10.innerHTML = "10. " + res[9].replace("_", " ");
+	serving.innerHTML = "";
     
   show(top5_1);
   show(top5_2);
@@ -202,6 +204,7 @@ function displayResult(data) {
   show(top10_9);
   show(top10_10);
   show(predResult);
+  show(serving);
 }
 
 function hide(el) {

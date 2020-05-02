@@ -3,3 +3,10 @@ keras
 jupyterlab
 sklearn
 pandas
+Werkzeug
+Flask
+numpy
+Keras
+gevent
+pillow
+h5py
