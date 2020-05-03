@@ -17,7 +17,7 @@ Before you can run this project, you will need to install some programs and depe
 
 ## Installing necessary programs and libraries
 
-1. Python 3 or higher: Python 3 is necessary to run another program that we use: Jupyter Notebook. Python 3 can be found at https://python.org/downloads/. We would suggest Python 3.6.10 because that is what we used for our project.
+1. Python 3 or higher: Python 3 is necessary to run another program that we use: Jupyter Notebook. Python 3 can be found at https://python.org/downloads/. We would suggest Python 3.7.6 because that is what we used for our project.
 
 2. Jupyter Notebook: The project is written in .ipynb files. To open these files, you'll need Jupyter Notebook. You can install this at https://jupyter.org/install
 
