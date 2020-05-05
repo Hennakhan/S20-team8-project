@@ -1,5 +1,0 @@
-tensorflow
-keras
-jupyterlab
-sklearn
-pandas
