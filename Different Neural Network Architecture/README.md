@@ -15,6 +15,6 @@
    * [Interactive Classification](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/images_to_predict) &nbsp;&nbsp;&nbsp; <sup><sub> (interactive classification for Model-1) </sup></sub>
    * [Model1-Demo](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/Model1-Demo.ipynb)  &nbsp;&nbsp;&nbsp; <sup><sub> (Model1: 5 runs with different split with top-1, top-5, top-10 accuarcy and figures for visualization) </sup></sub>
    * [Model2-Demo](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/Model1-Demo.ipynb)  &nbsp;&nbsp;&nbsp; <sup><sub> (Model2: 5 runs with different split with top-1, top-5, top-10 accuarcy and figures for visualization) </sup></sub>
-   * [Model3-Demo](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/Model1-Demo.ipynb)  &nbsp;&nbsp;&nbsp; <sup><sub> (Model3: 5 runs with different split with top-1, top-5, top-10 accuarcy and figures for visualization) </sup></sub
+   * [Model3-Demo](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/Model1-Demo.ipynb)  &nbsp;&nbsp;&nbsp; <sup><sub> (Model3: 5 runs with different split with top-1, top-5, top-10 accuarcy and figures for visualization) </sup></sub>
   
 
