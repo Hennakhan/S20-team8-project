@@ -63,7 +63,7 @@ You can download our dataset from this link [Download Food101 Dataset](http://da
 
     --> [Model3-Demo.ipynb ](./Demo/CNN_Models/Model3-Demo.ipynb)
   
-3. Your Model will be saved in the same folder with name 'food_model_101.h5', food_model_50.h5 and food_model_25.h5
+3. Your Model will be saved in the same folder with name 'model-101.h5', model-50.h5 and model-25.h5
 
 4. Done
 
