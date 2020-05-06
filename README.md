@@ -27,7 +27,7 @@ Before you can run this project, you will need to install some programs and depe
 
 ## Download Dataset
 
-You can download our dataset from this link [Download Food101 Dataset](https://www.kaggle.com/dansbecker/food-101#food-101.zip)
+You can download our dataset from this link [Download Food101 Dataset](http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz)
 
 ## Project tree
 * [Demo](./Demo) &nbsp;&nbsp;&nbsp; <sup><sub> (Contain our Demo) </sup></sub>
