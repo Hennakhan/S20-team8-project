@@ -79,21 +79,23 @@ categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labe
   $ cd S20-team8-project 
   $ cd 'Demo'
   $ cd 'FoodRecognizer-Webapp'
+ 
+# 2. Place your model in models folder
 
-# 2. Run!the script
+# 3. Run!the script
   $ python app.py
 
-# 3. Go to http://127.0.0.1:5000
+# 4. Go to http://127.0.0.1:5000
 
-# 4. Done
+# 5. Done
 ```
 ## Demo
+Detailed discription about each model can be found in the folder CNN_Models inside the Demo Folder in the root directory. There are file in there (Model1-Demo.ipynb, Model2-Demo.ipynb, and Model3-Demo.ipynb) that contains a walkthrough of the project. Going through this demo and running the code will give you a better understanding of the project.
+
 After creating the model and deploying it to the webapp. This is how your webapp is going to work with your model.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./Demo/FoodRecognizer-Webapp/ezgif.com-resize.gif)
-
-Detailed discription about each model can be found in the folder CNN_Models inside the Demo Folder in the root directory. There are file in there (Model1-Demo.ipynb, Model2-Demo.ipynb, and Model3-Demo.ipynb) that contains a walkthrough of the project. Going through this demo and running the code will give you a better understanding of the project.
 
 ## References
 <a id="1">[1]</a> 
