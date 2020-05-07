@@ -90,7 +90,7 @@ categories list with the name 'CATEGORIES' in 'app.py' file to your classes/labe
 # 5. Done
 ```
 ## Demo
-Detailed discription about each model can be found in the folder CNN_Models inside the Demo Folder in the root directory. There are file in there (Model1-Demo.ipynb, Model2-Demo.ipynb, and Model3-Demo.ipynb) that contains a walkthrough of the project. Going through this demo and running the code will give you a better understanding of the project.
+Detailed description about each model can be found in the folder CNN_Models inside the Demo Folder in the root directory. There are file in there (Model1-Demo.ipynb, Model2-Demo.ipynb, and Model3-Demo.ipynb) that contains a walkthrough of the project. Going through this demo and running the code will give you a better understanding of the project.
 
 After creating the model and deploying it to the webapp. This is how your webapp is going to work with your model.
 
