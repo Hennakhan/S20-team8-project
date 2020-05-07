@@ -40,6 +40,8 @@ You can download our dataset from this link [Download Food101 Dataset](http://da
    * [Figure generation and accuracy ](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/figure_generation_and_data)
       * [Average 5Fold accuracy and F1 for Model1, Model2 and Model3 ](https://github.com/CSCI4850/S20-team8-project/tree/master/Different%20Neural%20Network%20Architecture/figure_generation_and_data/graphz.ipynb)
 * [Project_Paper](./Project_Paper)  &nbsp;&nbsp;&nbsp; <sup><sub> (Contains .tex and .bib file for the final paper) </sup></sub>
+* [Project_Presentation.pdf](./Project_Presentation.pdf) 
+* [Project_Presentation.pptx](./Project_Presentation.pptx)
 * [README.md](./README.md)
 * [Project_Proposal.ipynb](./Project_Proposal.ipynb)   
 * [Project_Milestone.ipynb](./Project_Milestones.ipynb)
